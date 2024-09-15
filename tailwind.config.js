@@ -7,5 +7,9 @@ export default {
         },
         extend: {},
     },
+<<<<<<< HEAD
+=======
+    darkMode: "class",
+>>>>>>> parent of 43f22b4... first commit
     plugins: [],
 };
