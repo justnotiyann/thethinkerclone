@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-function App() {
-    return (
-        <main className="app">
-            <button className="btn btn-danger"></button>
-=======
 import { useState } from "react";
 import cn from "./utils/cn";
 
@@ -23,7 +17,6 @@ function App() {
                     Shousyadev
                 </a>
             </h1>
->>>>>>> parent of 43f22b4... first commit
         </main>
     );
 }
