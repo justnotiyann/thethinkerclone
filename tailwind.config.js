@@ -3,19 +3,10 @@ export default {
     content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
     theme: {
         fontFamily: {
-            Poppins: ["Poppins", "sans-serif"],
-            Proxima: ["Proxima Nova Condensed", "sans-serif"],
-            Cambay: ["Cambay", "sans-serif"],
+            inter: ["Inter", "sans-serif"],
         },
-        extend: {
-            colors: {
-                brand: {
-                    "space-cadet": "#17183B",
-                    verdigris: "#3AA39F",
-                },
-            },
-        },
+        extend: {},
     },
     darkMode: "class",
-    plugins: [require("tailwindcss-debug-screens")],
+    plugins: [],
 };
