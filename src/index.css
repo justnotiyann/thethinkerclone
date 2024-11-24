@@ -4,7 +4,23 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-    margin: 0;
-    padding: 0;
+@layer {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    html {
+        font-family: "system-ui";
+    }
+
+    /* Hide scrollbar but keep scrolling functionality */
+    .hide-scrollbar {
+        -ms-overflow-style: none; /* For Internet Explorer and Edge */
+        scrollbar-width: none; /* For Firefox */
+    }
+
+    .hide-scrollbar::-webkit-scrollbar {
+        display: none; /* For Chrome, Safari, and Opera */
+    }
 }
